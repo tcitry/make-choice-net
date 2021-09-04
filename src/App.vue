@@ -37,11 +37,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-#cus-l {
-}
-
-#cus-r {
-}
 .cus-el-col-l {
   background: #42b983;
   padding-bottom: 20px;
