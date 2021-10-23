@@ -4,7 +4,7 @@
       {{ CheckTitle }}
     </p>
     <check-input @addItem="handleAddItem"></check-input>
-    <div v-for="item in check_list" :key="item.id">
+    <div v-for="item in CheckList" :key="item.id">
       <check-item :content="item"></check-item>
     </div>
   </div>
@@ -22,14 +22,14 @@ export default {
       default: "default"
     }
   },
-  data: function () {
+  data() {
     return {
-      check_list: []
+      CheckList: []
     }
   },
   methods: {
     handleAddItem: function (val) {
-      this.check_list.push(val)
+      this.CheckList.push(val)
     }
   }
 }
