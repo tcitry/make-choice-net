@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: '/make-choice-net/'
+  // publicPath: '/make-choice-net/'
 }
