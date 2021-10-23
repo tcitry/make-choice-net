@@ -1,7 +1,8 @@
 {
   "name": "make-choice",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://github.com/tcitry/make-choice-net",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
